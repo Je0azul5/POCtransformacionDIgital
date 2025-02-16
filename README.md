@@ -49,7 +49,7 @@ Before you begin, ensure you have:
    ```
    This will start both the frontend and backend servers:
    - Frontend: http://localhost:3000
-   - Backend: http://localhost:5000
+   - Backend: http://localhost:3001
 
 ## Available Scripts
 
