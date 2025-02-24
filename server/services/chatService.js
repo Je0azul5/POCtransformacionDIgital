@@ -33,6 +33,9 @@ class ChatService {
         process.env.AZURE_STORAGE_CONNECTION_STRING
       );
     }
+
+    // Add system prompt configuration
+    this.systemPrompt = process.env.SYSTEM_PROMPT || 'You are a helpful assistant.';
   }
 
   async generateResponse(message, context) {
@@ -44,7 +47,7 @@ class ChatService {
         process.env.AZURE_OPENAI_DEPLOYMENT,
         [{
           role: 'system',
-          content: 'You are a helpful assistant.'
+          content: this.systemPrompt
         }, {
           role: 'user',
           content: `${context}\n\nUser: ${message}`
