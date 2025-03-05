@@ -51,7 +51,14 @@ class ChatService {
         }, {
           role: 'user',
           content: `${context}\n\nUser: ${message}`
-        }]
+        }],
+        {
+          temperature: parseFloat(process.env.MODEL_TEMPERATURE) || 0.7, // Controla la aleatoriedad
+          max_tokens: parseInt(process.env.MODEL_MAX_TOKENS) || 4096,    // Máximo de tokens en la respuesta
+          top_p: parseFloat(process.env.MODEL_TOP_P) || 1.0,            // Nucleus sampling
+          frequency_penalty: parseFloat(process.env.MODEL_FREQUENCY_PENALTY) || 0.0, // Penalización por repetición
+          presence_penalty: parseFloat(process.env.MODEL_PRESENCE_PENALTY) || 0.0    // Penalización por nuevos temas
+        }
       );
 
       return response.choices[0].message.content;
