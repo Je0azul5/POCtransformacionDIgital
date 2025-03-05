@@ -1,4 +1,4 @@
-# Azure OpenAI Chatbot
+# Azure OpenAI Chatbot (LeticIA)
 
 A full-stack chatbot application built with React, Node.js, and Azure OpenAI services.
 
@@ -101,3 +101,43 @@ Before you begin, ensure you have:
 ## License
 
 ISC 
+
+# Project Context: Digital Transformation in the Distribution of Literary Works
+
+**POC**  
+Cultural Submanagement, National Library System
+
+## Problem Description
+
+The Cultural Submanagement currently faces significant challenges in distributing literary works to various cultural centers nationwide. The process relies heavily on the experience of the staff to prioritize shipments and decide where the literary works might generate the greatest added value. However, this approach presents several issues:
+
+- **Manual Prioritization:** Distribution decisions are made based on personal experience rather than structured, data-driven analysis.
+- **Manual Record Keeping:** The process of recording distributions is carried out manually, leading to repetitive operational tasks, high time consumption, and an increased risk of errors.
+- **Lack of Data-Driven Insight:** Without a systematic analysis of historical data and regional demand, it becomes difficult to optimize the allocation process and track its effectiveness.
+
+## Role of Cognitive AI in the Solution
+
+This Proof-of-Concept (POC) leverages cognitive AI to transform the traditional approach into a more efficient, data-driven process by focusing on two key areas:
+
+1. **Optimization of Distribution:**
+   - **Historical Data Analysis:** Machine learning algorithms analyze previous distribution records to identify patterns and trends.
+   - **Regional Demand Prediction:** The system evaluates regional demand, taking into account cultural preferences and demographic factors, to predict which literary works will be most valued, enabling more efficient allocation.
+
+2. **Automation of Record Keeping and Analysis:**
+   - **OCR for Digitization:** Optical Character Recognition (OCR) is used to digitize manual records, converting them into structured data.
+   - **NLP for Information Extraction:** Natural Language Processing (NLP) extracts and categorizes relevant information from the digitized records, reducing manual workload and improving process traceability.
+
+## Required Input Data for the AI
+
+To optimize the distribution process and automate record keeping, the AI system requires the following inputs:
+
+- **Historical Distribution Data:** Detailed records of previous shipments including dates, quantities, and types of literary works sent to each cultural center.
+- **Demand and Cultural Preferences:** Data on the most requested literary works per region, collected through surveys, attendance at literary events, and audience feedback.
+- **Characteristics of Cultural Centers:** Information on each center's location, capacity, visitor demographics, types of activities, and frequency of material renewal.
+- **Sociodemographic Information:** Regional statistics such as population data, education levels, library accessibility, and reading habits.
+- **Current Manual Records:** Existing documents or databases maintained manually, which can be digitized using OCR.
+- **External Factors:** Trends in literature, scheduled cultural events, and the availability of new works that could influence regional demand.
+
+---
+
+This POC illustrates how integrating cognitive AI can transform traditional processes by converting an experience-based approach into a system driven by data and automation. The solution not only optimizes the allocation of literary works but also streamlines record keeping and analysis, reducing manual effort and minimizing errors while ensuring that distribution decisions are aligned with current cultural and regional demands.
