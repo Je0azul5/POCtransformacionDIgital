@@ -102,7 +102,7 @@ Before you begin, ensure you have:
 
 ISC 
 
-# Project Context: Digital Transformation in the Distribution of Literary Works
+# Project Context
 
 **POC**  
 Cultural Submanagement, National Library System
