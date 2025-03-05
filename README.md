@@ -141,3 +141,44 @@ To optimize the distribution process and automate record keeping, the AI system 
 ---
 
 This POC illustrates how integrating cognitive AI can transform traditional processes by converting an experience-based approach into a system driven by data and automation. The solution not only optimizes the allocation of literary works but also streamlines record keeping and analysis, reducing manual effort and minimizing errors while ensuring that distribution decisions are aligned with current cultural and regional demands.
+
+
+
+# Step-by-Step Guide: Getting Recommendations from Chat
+
+1. **Open the Excel File:**
+   - Open your `librostextos.xlsx` file in Excel or your preferred spreadsheet application.
+
+2. **Select the Desired Lines:**
+   - Identify and select the rows you want to share.
+   - For example, you might select the following lines:
+     ```
+     AVATARES DE EL CORTESANO LECTURAS Y LECTORES DE UN TEXTO CLAVE DEL ESPIRITU RENACENTISTA, LOS   BURKE, Peter   Gedisa Editorial   9,788,419,406,514   2,023   Historia y geografía
+     BAHAREQUE   VELáSQUEZ LEóN, Alejandro   Casa de Asterión Ediciones   9,786,280,111,568   2,025   Literatura
+     BIOGRAFIA DEL FUEGO   GURT, Carlota   Libros del Asteroide   9,788,419,089,625   2,023   Literatura
+     BIRDGIRL MI FAMILIA LAS AVES Y LA BUSQUEDA DE UN FUTURO MEJOR   CRAIG, Mya Rose   Errata naturae   9,788,419,158,499   2,023   Literatura
+     BREVE HISTORIA DE LOS JUDIOS EN ESPAÑA   DíAZ MAS, Paloma   Los Libros De La Catarata   9,788,413,528,038   2,023   Historia y geografía
+     BUENAS PRACTICAS DE GOBIERNO CORPORATIVO PARA LAS CAMARAS DE COMERCIO OPORTUNIDADES DE FORTALECIMIENTO   GUZMÁN VáSQUEZ, Alexánder   Colegio De Estudios Superiores De Administración - Cesa   9,789,588,988,689   2,023   Administración
+     CALLATE EL PODER DE MANTENER LA BOCA CERRADA EN UN MUNDO DE RUIDO INCESANTE   LYONS, Dan   Capitán Swing   9,788,412,708,493   2,023   Áreas de ciencias sociales
+     CAMINOS PARA LA SALVAGUARDIA (4 CARTILLAS) DEL PATRIMONIO VIVO   RINCóN, Enrique   Instituto Distrital de Patrimonio Cultural   9,786,289,585,322   2,023   Arquitectura
+     ```
+
+3. **Copy the Selected Lines:**
+   - Use your mouse or keyboard shortcuts (e.g., `Ctrl+C` on Windows or `Cmd+C` on macOS) to copy the selected rows.
+
+4. **Paste the Lines into the Chat:**
+   - Click into the chat input area and paste the copied text (e.g., `Ctrl+V` on Windows or `Cmd+V` on macOS).
+
+5. **Send the Message:**
+   - Press Enter or click the send button to share the text with the chat.
+
+6. **Receive the Recommendation:**
+   - The chat will process the pasted text and return a recommendation based on the provided snippet. This recommendation might include insights on how to further process or analyze the data, or suggestions on improving the workflow.
+
+7. **Review and Act on the Recommendation:**
+   - Review the recommendation in the chat.
+   - If necessary, adjust your data selection or ask follow-up questions for more details.
+
+---
+
+By following these steps, you can easily extract a portion of your data from `librostextos.xlsx`, share it with the chat, and receive actionable recommendations based on the content.
